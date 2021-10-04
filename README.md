@@ -35,13 +35,11 @@
 
 
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025016.gif" alt="img" style="zoom:150%;" />
-
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025705.gif" alt="img" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025016.gif" alt="img" style="zoom:150%;" /><img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025705.gif" alt="img" style="zoom:150%;" />
 
 
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025448.gif" alt="img" style="zoom: 200%;" />
+
 
 ## 2. Designing Outline(Hardware+Software)
 
