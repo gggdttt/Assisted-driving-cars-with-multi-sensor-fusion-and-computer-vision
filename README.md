@@ -7,19 +7,25 @@
 * Project Name: The Assisted-Driving System
 * Project Aim: This system would help a running 'car' to detect the concrete type of an obstacle and then could help it to take different approaches according to the 'type'  detected by multi-sensor fusion.
 
+**Hardware Configuration**:
+
+| Name                         | Edition               |
+| ---------------------------- | --------------------- |
+| CPU                          | i7-8565u              |
+| GPU                          | GeForce MX150         |
+| Operation System             | Windows 10 Home 64bit |
+| CUDA                         | 10.2                  |
+| CUDNN                        | 7.6.4                 |
+| OpenCV                       | 3.2                   |
+| Microsoft Visual studio 2019 | 16.4.1                |
+
 ### 1.1 Display of Hardware
 
 <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050009182.png" alt="Design" style="zoom:67%;" />
 
-![image-20211005005709824](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050057194.png)
+![image-20211005012237881](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050122179.png)
 
-![image-20211005005813810](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050058105.png)
-
-![image-20211005005830907](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050058137.png)
-
-![image-20211005005843700](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050058991.png)
-
-![image-20211005005901268](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050059601.png)
+![image-20211005012401632](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050124977.png)
 
 
 
@@ -36,10 +42,6 @@
 
 
 <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025016.gif" alt="img" style="zoom:150%;" /><img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025705.gif" alt="img" style="zoom:150%;" />
-
-
-
-
 
 ## 2. Designing Outline(Hardware+Software)
 
@@ -88,4 +90,8 @@
 | ------------------------------------------------- | --------- | ------------ | ------ |
 | Current angle (compared to initial point)         | 0.01      | 0~36000      | degree |
 | Corresponding distance (compared to radar center) | 0.025     | 0~32,000,000 | mm     |
+
+## 4 Software Realization
+
+### 4.1 
 
