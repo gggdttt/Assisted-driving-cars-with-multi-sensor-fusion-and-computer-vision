@@ -27,21 +27,17 @@
 
 ![image-20211005012401632](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050124977.png)
 
-
+![image-20211005012518141](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050125424.png)
 
 ### 1.2 Software Display
 
 **User Application Overview:**
 
-![img](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050017866.gif)
+![image-20211005012749968](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050127078.png)
 
 **Detection Result:**
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050023287.png" alt="Detection result" style="zoom:80%;" />   
-
-
-
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025016.gif" alt="img" style="zoom:150%;" /><img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025705.gif" alt="img" style="zoom:150%;" />
+![image-20211005012925709](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050129962.png)
 
 ## 2. Designing Outline(Hardware+Software)
 
