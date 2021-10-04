@@ -1,4 +1,7 @@
+
+
 # Assisted-Driving System with Multi-sensor Fusion and Computer Vision
+
 ## 1.Project Introduction
 
 * Project Name: The Assisted-Driving System
@@ -8,29 +11,37 @@
 
 <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050009182.png" alt="Design" style="zoom:67%;" />
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050014046.jpg" alt="Front View" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050014046.jpg" alt="Front View" style="zoom: 25%;" />
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050011078.jpg" alt="TopView" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050011078.jpg" alt="TopView" style="zoom: 25%;" />
 
-![Rear View](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050012196.jpg)
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050012196.jpg" alt="Rear View" style="zoom:25%;" />
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050012231.jpg" alt="Side View" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050012231.jpg" alt="Side View" style="zoom: 25%;" />
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050013114.jpg" alt="Bottom View" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050013114.jpg" alt="Bottom View" style="zoom: 25%;" />
 
 
 
 ### 1.2 Software Display
 
-User Application Overview
+**User Application Overview:**
 
 ![img](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050017866.gif)
 
-![](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050023287.png)   
+**Detection Result:**
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025016.gif" alt="img" style="zoom:150%;" /><img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025705.gif" alt="img" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050023287.png" alt="Detection result" style="zoom:80%;" />   
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025448.gif" alt="img" style="zoom:150%;" />
+
+
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025016.gif" alt="img" style="zoom:150%;" />
+
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025705.gif" alt="img" style="zoom:150%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050025448.gif" alt="img" style="zoom: 200%;" />
 
 ## 2. Designing Outline(Hardware+Software)
 
@@ -73,10 +84,10 @@ User Application Overview
 | Output high level(V) | 2.9~3.5                               |
 | Output low level(V)  | <0.4                                  |
 
-**Detect**
+**Detection Precision**
 
-| 测量数据项                 | 精度  | 范围         | 单位 |
-| -------------------------- | ----- | ------------ | ---- |
-| 当前角度  （相较初始点）   | 0.01  | 0~36000      | 度   |
-| 对应距离  （相较雷达中心） | 0.025 | 0~32,000,000 | 毫米 |
+| Measurement item                                  | Precision | Range        | Unit   |
+| ------------------------------------------------- | --------- | ------------ | ------ |
+| Current angle (compared to initial point)         | 0.01      | 0~36000      | degree |
+| Corresponding distance (compared to radar center) | 0.025     | 0~32,000,000 | mm     |
 
