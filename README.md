@@ -45,51 +45,47 @@ Basic Design of Hardware:
 
 ## 2. Designing Outline(Hardware+Software)
 
-* Hardware Designing
-  * This system used `raspberry pi 4B+` ,`L298N driving module`,`CSI camera`,`Lazer rader`,`Infrared ranging module`. It is convenient for you to add additional approaches to detect the potential obstacles.
+* **Hardware Design**
 
-![image-20210923145852461](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202109231458577.png)
+  This system used `raspberry pi 4 B+` ,`L298N motor driver module`,`CSI camera`,`Radar`,`Infrared ranging module`. It is convenient for you to add additional approaches(e.g. more sensors) to detect obstacles.
 
-* Software Outline:
+![image-20211006000548168](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110060005281.png)
 
-  The whole system could be divided into 3 parts of this system shown in the image following:
+* **Software Design**:
 
-  ![image-20211004234348530](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110042343675.png)
+  The whole system could be divided into 3 parts as shown in the figure below:
+
+  ![image-20211006005347270](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110060053354.png)
 
   > Reasons for designing the video recognition server:
   > (1) Insufficient hardware performance
   > (2) The distribution of the entire system is more flexible(Could set the detection server anywhere you want)
 
-## 3.Hardware Realization
+## 3.Hardware Design
 
-### 3.1 Hardware Connection Description
-
-
-
-![image-20211004235511359](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110042355455.png)
-
-### 3.2 Wiring Diagram of Raspberry Pi and Motor Drive Module
+### 3.1 Circuit
 
 ![](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110042358950.png)
 
-### 3.3 Introduction to 2D Rader 
+### 3.2 Introduction to 2D Rader 
 
-![image-20211005000005577](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050000666.png)  	
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050000666.png" alt="image-20211005000005577" style="zoom:150%;" />  	
 
 **Parameters of 2D Rader** 
 
-| ByteRate             | 230400                                |
-| -------------------- | ------------------------------------- |
-| Operating mode       | 8-bit data, 1 stop bit, no parity bit |
-| Output high level(V) | 2.9~3.5                               |
-| Output low level(V)  | <0.4                                  |
+| Name                  | Value                                 |
+| --------------------- | ------------------------------------- |
+| Bit Rate              | 230400                                |
+| Operation mode        | 8-bit data, 1 stop bit, no parity bit |
+| High level output (V) | 2.9 ~ 3.5                             |
+| Low level output  (V) | < 0.4                                 |
 
-**Detection Precision**
+**Measurement**
 
-| Measurement item                                  | Precision | Range        | Unit   |
-| ------------------------------------------------- | --------- | ------------ | ------ |
-| Current angle (compared to initial point)         | 0.01      | 0~36000      | degree |
-| Corresponding distance (compared to radar center) | 0.025     | 0~32,000,000 | mm     |
+| Measurements                                 | Precision | Range        | Unit   |
+| -------------------------------------------- | --------- | ------------ | ------ |
+| Current angle (compared to initial point)    | 0.01      | 0~36000      | degree |
+| Relative distance (compared to radar center) | 0.025     | 0~32,000,000 | mm     |
 
 ## 4 Software Realization
 
