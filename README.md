@@ -7,7 +7,7 @@
 * **Project Name**: The Assisted-Driving System
 * **Project Aim**: This system would help a running 'car' to detect the concrete type of an obstacle and then take different approaches according to the 'type'  detected by multi-sensor fusion and CV.
 
-* **Hardware Configuration**:
+* **Environment**:
 
 | Name                         | Edition               |
 | ---------------------------- | --------------------- |
@@ -21,7 +21,11 @@
 
 ### 1.1 Display of Hardware
 
+Basic Design of Hardware:
+
 <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050009182.png" alt="Design" style="zoom:67%;" />
+
+
 
 ![image-20211005012237881](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050122179.png)
 
