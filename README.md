@@ -189,7 +189,7 @@ For some experiences about how to create a suitable developing environment for r
 
 You should run `darknet_video.py` on detection server and `Main.py` on your raspberry pi. Notice: try to ensure these two process run at the same time. Or it would exceed the maximum time limitation of `Socket`
 
-> Author: @ Wenjie
+> Author: @ Wenjie & @ Jianan
 >
 > Date: 10 June 2020
 
