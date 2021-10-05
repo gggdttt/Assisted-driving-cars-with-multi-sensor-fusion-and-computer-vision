@@ -65,7 +65,7 @@ The whole system could be divided into 3 parts as shown in the figure below:
 
 ### 3.2 Introduction to 2D Rader 
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050000666.png" alt="image-20211005000005577" style="zoom:150%;" />  	
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050000666.png" alt="image-20211005000005577" style="zoom:150%;" />
 
 **Parameters of 2D Rader** 
 
@@ -189,7 +189,7 @@ For some experiences about how to create a suitable developing environment for r
 
 You should run `darknet_video.py` on detection server and `Main.py` on your raspberry pi. Notice: try to ensure these two process run at the same time. Or it would exceed the maximum time limitation of `Socket`
 
-> Author: @ Wenjie & @ Jianan
+> Author: @ Wenjie Fan & @ Jianan Xu
 >
 > Date: 10 June 2020
 
