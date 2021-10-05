@@ -5,7 +5,7 @@
 ## 1.Project Introduction
 
 * **Project Name**: The Assisted-Driving System
-* **Project Aim**: This system would help a running 'car' to detect the concrete type of an obstacle and then take different approaches according to the 'type'  detected by multi-sensor fusion and CV.
+* **Project Aim**: This system would help a running 'car' to detect the specific type of an obstacle and then take different approaches according to the 'type'  detected by multi-sensor fusion and CV.
 
 * **Environment**:
 
@@ -19,11 +19,7 @@
 | OpenCV                       | 3.2                   |
 | Microsoft Visual studio 2019 | 16.4.1                |
 
-### 1.1 Display of Hardware
-
-Basic Design of Hardware:
-
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050009182.png" alt="Design" style="zoom:67%;" />
+### 1.1  Hardware Display
 
 
 
@@ -39,27 +35,27 @@ Basic Design of Hardware:
 
 ![image-20211005012749968](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050127078.png)
 
-**Detection Result:**
+**Detection Results:**
 
 ![image-20211005012925709](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050129962.png)
 
-## 2. Designing Outline(Hardware+Software)
+## 2. Design
 
-* **Hardware Design**
+### 2.1 **Hardware Design**
 
-  This system used `raspberry pi 4 B+` ,`L298N motor driver module`,`CSI camera`,`Radar`,`Infrared ranging module`. It is convenient for you to add additional approaches(e.g. more sensors) to detect obstacles.
+This system used `raspberry pi 4 B+` ,`L298N motor driver module`,`CSI camera`,`Radar`,`Infrared ranging module`. It is convenient for you to add additional approaches(e.g. more sensors) to detect obstacles.
 
 ![image-20211006000548168](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110060005281.png)
 
-* **Software Design**:
+### 2.2 **Software Design**:
 
-  The whole system could be divided into 3 parts as shown in the figure below:
+The whole system could be divided into 3 parts as shown in the figure below:
 
-  ![image-20211006005347270](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110060053354.png)
+![image-20211006005347270](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110060053354.png)
 
-  > Reasons for designing the video recognition server:
-  > (1) Insufficient hardware performance
-  > (2) The distribution of the entire system is more flexible(Could set the detection server anywhere you want)
+> Reasons for designing the Real-time Video Detection Server:
+> (1) Insufficient hardware performance
+> (2) The distribution of the entire system is more flexible(Could set the detection server anywhere you want)
 
 ## 3.Hardware Design
 
@@ -91,7 +87,7 @@ Basic Design of Hardware:
 
 ### 4.1 Overview of Software Part
 
-**All Related File to Detection Server:**
+**All Related Files to Detection Server:**
 
 ```shell
 ./code/darknet/x64/darknet_video.py # video detection
@@ -108,7 +104,7 @@ Basic Design of Hardware:
 
 ![](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050843187.png)
 
- **All Related File to Raspberry Pi**:
+ **All Related Files to Raspberry Pi**:
 
 ``` shell
 ./code/raspberry/ConnectSerial.py # Connect to Radar
@@ -122,7 +118,7 @@ Basic Design of Hardware:
 
 ![image-20211005092940705](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110050929769.png)
 
-### 4.2 Configuration File Description
+### 4.2 Configuration Files Description
 
 **./code/darknet/x64/xbai_darknet_setting.ini**:
 
@@ -181,7 +177,7 @@ raspberry_server_radar_port = 12343
 
 ### 4.3 How to Run
 
-To run this system, it is necessary to install the following edition reference or later edition :
+To run this system, it is necessary to install the following or later edition:
 
 - CUDA: 10.2
 - CUDNN: 7.6.4
@@ -195,5 +191,5 @@ You should run `darknet_video.py` on detection server and `Main.py` on your rasp
 
 > Author: @ Wenjie
 >
-> Date: 2020/6/10
+> Date: 10 June 2020
 
