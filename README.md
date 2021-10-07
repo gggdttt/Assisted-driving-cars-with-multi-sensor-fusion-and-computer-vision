@@ -183,9 +183,9 @@ To run this system, it is necessary to install the following or later edition:
 - CUDNN: 7.6.4
 - OpenCV: 3.2
 
-For more information about  how to  run `YOLOv3` on your computer,  you could visit another description on my blog [here](https://gggdttt.github.io/2020/04/15/How-to-run-YOLOv3-on-Win10.html) (Sorry for currently it is in Chinese, I will update English edition later).
+For more information about  how to  run `YOLOv3` on your computer,  you could visit another description on my blog [here](https://gggdttt.github.io/note/cv/2020/04/15/How-to-run-YOLOv3-on-Win10.html) (Sorry for currently it is in Chinese, I will update English edition later).
 
-For some experiences about how to create a suitable developing environment for raspberry pi and `YOLOv3`,  you could also visit [here](https://gggdttt.github.io/2020/04/10/How-to-Development-Enviroment-for-Raspberry-Pi.html) on my blog.
+For some experiences about how to create a suitable developing environment for raspberry pi and `YOLOv3`,  you could also visit [here](https://gggdttt.github.io/tool/raspberrypi/2020/04/10/How-to-Development-Enviroment-for-Raspberry-Pi.html) on my blog.
 
 You should run `darknet_video.py` on detection server and `Main.py` on your raspberry pi. Notice: try to ensure these two process run at the same time. Or it would exceed the maximum time limitation of `Socket`
 
