@@ -2,6 +2,8 @@
 
 # Assisted-Driving System with Multi-sensor Fusion and Computer Vision
 
+> We recommend you to use the latest version of CUDA and raspbian. For webcam server, we also recommand you to choose one supports protocal https. Otherwise there would be a network secure threat.
+
 ## 1.Project Introduction
 
 * **Project Name**: The Assisted-Driving System
